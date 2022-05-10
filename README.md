@@ -1,4 +1,4 @@
-# HTML Exercises by CodeFactory
+# HTML5 | Day 1 | Advanced exercises
 
 ## Advanced Exercise | Website
 
