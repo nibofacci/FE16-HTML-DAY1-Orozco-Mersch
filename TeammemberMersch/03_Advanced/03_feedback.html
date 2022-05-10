@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Form</title>
+    </head>
+    <body>
+        
+        <header>
+            <nav>
+                
+                <a href="./index.html">Home</a> |
+                <a href="./01_menu.html">Menu</a> |
+                <a href="./02_team.html">Team</a> |
+                <a href="./03_feedback.html">Feedback</a> |
+                <a href="./04_contact.html">Contact</a>
+    
+            </nav>
+        </header>
+
+        <h1>Reach us!</h1>
+
+        <form action="destination_page.php">
+            First name:<br>
+             <input type="text" name = "firstname" placeholder="First name"><br > 
+
+            <br>
+
+            Last name:<br>
+            <input  type="text" name="lastname"  placeholder="Last name"><br> 
+           
+         </form>
+
+         <p>Pick your gender:</p>
+
+         <select name="Gender"> 
+            <option value="male">male </option>
+            <option value = "female" selected>female</option > 
+            <option value="other" > other</option>
+        </select>
+
+        <div>
+            <br>
+            <p>Tell us what you think:</p>
+            <textarea name="message" placeholder="Your thoughts here ..." rows ="10" cols="30"></textarea>
+        </div>
+
+        <br>
+
+
+
+         <form>
+            <input type ="radio" name="newsletter" value = "yes" checked> I want to receive a Newsletter!<br> 
+            <input type="radio"  name="newsletter" value="no">  I do not want to receive a Newsletter.<br>
+         </form>
+
+         <br>
+
+        <div><input type="button" value ="Submit" onclick="doSmth()"></div>
+
+
+    </body>
+</html>
